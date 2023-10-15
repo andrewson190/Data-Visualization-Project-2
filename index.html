@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Parent Interaction with Schools by Gender</h1>
+    <div>
+        <script type='module' src='https://prod-useast-b.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-useast-b.online.tableau.com/t/andrewson/views/DataVisualizationProject2/Dashboard1' width='1536' height='746' hide-tabs toolbar='bottom' ></tableau-viz>
+    </div>
+    <h1>Reflection</h1>
+    <div>
+        <p>The first step I took was to understand the data in the household responses dataset for a single year, 2021, and generate as many different questions as possible based on the data. Some of the questions I initially came up with:
+        </p>
+        <ul>
+            <li>Is there a correlation between the race of the children of the respondent and the frequency of the respondents' interactions with their child’s school?
+            </li>
+            <li>Is there a correlation between the race of the children of the respondent and how the respondent thinks technology impacts their children?
+            </li>
+            <li>Is there a correlation between the gender of the respondent and their interaction with their childrens' school?
+            </li>
+            <li>Is there a correlation between the gender of the respondent and their view on how technology impacts their children?
+            </li>
+            <li>Is there a correlation between the gender of the respondents' child and the respondents thoughts on whether technology is a positive or negative influence on their child?
+            </li>
+        </ul>
+        <p>The next step was to generate multiple visualizations to compare different parts of the data. This ranged from pie charts of the demographics of the respondents such as gender, gender of children, race of children, and household size to bar charts relating the answers of each question to these demographics. 
+        </p>
+        <p>Some narratives I considered after creating these visualizations were the relationships between the race of the respondent’s children, the household size, or the free or reduced lunch categories and the answers to the survey questions. I decided to focus on the relationship between gender, specifically the gender of the respondent and the gender of the respondent’s children, and the responses to question 2 and 3. I decided to leave out visualizations pertaining to questions 1, 4, and 5 because I found that those questions yielded less significant differences between the responses of respondents of different genders. 
+        </p>
+        <p> I chose to use the visualizations comparing gender to question 2 because I discovered that there were significant differences between male and female responses to the questions pertaining to the respondent’s interaction with their childrens’ schools and also between respondents with only male children or only female children. I chose to use question 3 because there were major differences between the answers of the respondents with only male children or only female children and how they viewed the role of technology for their children.
+        </p>
+        <p>Using these comparisons, I wanted to convey the narrative that female parents tended to contact the schools of their children much more frequently than male parents, and also that parents in general would contact schools regarding male children much more often than they would regarding female children.
+        </p>
+        <p>To convey this narrative, I first decided to provide a context to the demographics of the respondents gender and the gender of the children. I used pie charts to visualize this data because they are effective at the percentages of a whole while also capturing the attention of the audience with more aesthetically pleasing elements. I positioned these charts at the top of the dashboard so that the users would see them first before the charts with more complexity below.
+        </p>
+        <p>To compare the gender demographics of the respondents and their answers to the questions, I initially considered giving the user full control of both the gender of the respondent and the gender of the children of the respondent. However, I thought that this may complicate the visualization and make it more difficult for the user to understand the intended message as there would be too many combinations of demographics to choose from.  
+        </p>
+        <p>Thus, I decided to make two visualizations, one for male respondents and one for female respondents, to visualize each question while only giving the user the option to choose between respondents with only female or male children to simplify this process. If a user solely wished to compare the gender of the respondents, no action would be required, and if the user wished to compare the responses for respondents with children of different genders, they could choose an option on the pie chart accordingly. Additionally, to avoid a situation where the user did not know where to start, I gave a pointer in the middle of the dashboard that described how to compare the responses.</p>
+    </div>
+    
+    
+</body>
+</html>
